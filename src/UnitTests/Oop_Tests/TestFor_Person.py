@@ -37,5 +37,12 @@ class TestFor_Person(unittest.TestCase):
         except AttributeError as e:
             self.assertIsNotNone(e)
 
+    def test_setAge_inputValueIsLargeThan200_throwExpectedException(self):
+        try:
+            p = Person('paul')
+            p.set_Age(310)
+        except AttributeError as e:
+            self.assertIsNotNone(e)
+
 if __name__ == '__main__':
     unittest.main()
