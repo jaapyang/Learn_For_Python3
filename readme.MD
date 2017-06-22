@@ -38,4 +38,4 @@
 > 
 > Namespaces are one honking great idea -- let's do more of those!
 
-# ¸ÐÐ»Guido van Rossum
+# æ„Ÿè°¢Guido van Rossum
