@@ -1,7 +1,9 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""Learn for IO commands"""
+"""Learn for IO commands
+    test for contributions
+"""
 import random
 
 __author__ = 'Paul yang'
