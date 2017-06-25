@@ -3,15 +3,16 @@
 
 def collatz(number):
     """ TODO: how to get a collatz number list """
+    result = 0
     if number == 1:
         return None
     if number % 2 == 0:
-        number == int(number / 2)
+        result = number // 2
     else:
-        number = int(3 * number + 1)
+        result = int(3 * number + 1)
 
-    print(number)
-    collatz(number)
+    print(result)
+    collatz(result)
 
 
 number = int(input())
